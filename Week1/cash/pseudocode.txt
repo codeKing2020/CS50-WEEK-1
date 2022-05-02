@@ -1,0 +1,17 @@
+First ask how much the cashier owes the customer
+    If not a float, re-prompt -  check
+Convert to integer and round off - check
+Take integer and ask 
+    If I take away 25c, will there be any left over?
+        If yes, take away, record take, then try again to check
+    Else if I take away 10c, will there be any left over?
+        If yes, take away, record take, then check again
+    Else if I take away 5c, will there be any left over?
+        If yes, take away, record take, then check again
+    Else take away 1c
+        Record take
+Then print value, ending with an integer and \n
+
+Should be loop to check until its is zero. * Maybe might not be needed
+Conditionals should also be looped to check if we can still take big bites
+Input should be decimal, so use get_float
